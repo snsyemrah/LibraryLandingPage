@@ -1,0 +1,195 @@
+/* https://youtu.be/CahEsOKaWuo */
+/*General layout*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   /*General font and background of the page defined*/
+   body{
+     font-family: sans-serif;
+     background-image: url(https://images6.alphacoders.com/306/thumb-1920-306638.jpg) 
+   }
+   
+   /*Centered text on navigation bar*/
+   .nav-bar{
+     text-align: center;
+     background-color: #383838;
+     }
+   
+   /*Elements of table gathered to one line*/
+   .nav-bar ul{
+     display: inline-flex;
+     list-style: none;
+     font-weight: bold;
+   }
+   
+   /*The distances between the list elements were determined*/
+   .nav-bar ul li{
+     width: 150px;
+     margin: 25px;
+     padding: 15px;    
+   }
+   
+   /*Link text personalized*/
+   .nav-bar ul li a{
+     text-decoration: none;
+     color: #008080;  
+     
+   }
+   
+   /*Hover given to personalized link*/
+   .nav-bar ul li a:hover{
+     border-radius: 5px;
+     color: #FFFAFA;
+    }
+   
+   /*Properties of search div defined*/
+   .keyword{
+     margin-top: 75px;
+     text-align: center;
+     color:white;
+     font-size: 1.5em;
+   }
+   
+   /*Size of search box set*/
+   .keyword input{
+     height: 25px;
+     width: 250px;
+   }
+   
+   /*Sub-divs are adjoined and centered*/
+   #main-library{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     margin-top: 225px;
+     background-color: #383838;
+     }
+   
+   /*Menus are designed*/
+   .sub-library{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     font-size: 20px;
+     color: white;
+     width: 300px;
+   }
+   
+   /*Title of menus are personalized*/
+   .sub-library-sections{
+     color: #008080;
+     font-size: 18px;
+   }
+   
+   /*Margin of menu set*/
+   .sub-library-contents{
+     margin: 15px;
+   }
+   
+   /*Hover added to links*/
+   .sub-library-contents li a:hover{
+     color: #008080;
+     font-size: 18px;
+   }
+   
+   /*List style removed*/
+   .sub-library-contents ul{
+     list-style: none;
+   }
+   
+   /*Specification of archive element defined*/
+   #archive{
+     background-color: #383838;
+     color: white;
+     display: flex;
+     padding-top: 15px;
+     opacity: 0.8;
+     display: inline-flex;
+     flex-direction: column;
+     text-align: center;
+   }
+   
+   /*The text of the archive is positioned*/
+   .archive-text{
+     margin:auto;
+     width: 60%;
+     padding-top: 25px;
+     padding-bottom: 25px; 
+   }
+   
+   /*Table centered*/
+   .table-content{
+      margin:auto;
+   }
+   
+   /*Title od table personalized*/
+   .table-title{
+     padding: 10px;
+     text-decoration: underline;
+   }
+   
+   /*Year of table is centered*/
+   .table-years{
+     text-align: center;
+     
+   }
+   
+   /*Footer is personalized and arranged*/
+   .footer{
+     display: flex;
+     justify-content: space-between;
+     background-color: #383838;
+     color: white;
+     font-size: 14px;
+     font-family: cursive;
+     opacity: 0.8;
+     padding-top: 25px;
+   }
+   
+   /*Social media icons are designed*/
+   .social-media ul{
+     display: inline-flex;
+     flex-direction: column;
+     list-style: none;
+   }
+   
+   /*Link text personalized*/
+   .social-media ul li{
+     margin-right: 120px;
+   }
+   
+   /*Contact-information text personalized*/
+   .contact-information{
+     padding: 20px;
+   }
+   
+   /*Patent rights are personalized*/
+   .patent{
+     color: #808080;
+     text-align: center;
+     background-color: #383838;
+     opacity: 0.8;
+     font-size: 12px;
+     font-family: cursive;
+   }
+   
+   /*Link text personalized*/
+   .patent a{
+     text-decoration: none;
+     color: #808080;
+   }
+   
+   /*Hover given to personalized link*/
+   .patent p,a:hover{
+     color: white;
+   }
+   
+   
+   
+                 
+   
+                
